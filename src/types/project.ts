@@ -40,6 +40,11 @@ export interface CreateProjectRequest {
   description: string;
 }
 
+export interface UpdateProjectRequest {
+  name?: string;
+  description?: string;
+}
+
 export interface CreateTaskRequest {
   title: string;
   description: string;
